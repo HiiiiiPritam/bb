@@ -430,7 +430,7 @@ const AddExpenseComponent = ({ id }) => {
             <label htmlFor="updateDaily" className="ml-2">
               Add to daily expense instead of replacing
               <br />
-              (check if same day else don't)
+              (check if same day else don&apos;t)
             </label>
           </div>
         </div>

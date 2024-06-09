@@ -58,7 +58,7 @@ function LoginForm() {
           </button>
         </form>
         <hr className="mt-7 h-1 w-full bg-[#A78295]" />
-        Don't have an account?<Link href={"/register"}>Register</Link>
+        Don&apos;t have an account?<Link href={"/register"}>Register</Link>
       </div>
     </div>
   );

@@ -11,9 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
-      <script src="https://cdn.lordicon.com/lordicon.js"></script>
-      </body>
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <script async src="https://cdn.lordicon.com/lordicon.js"></script>
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
