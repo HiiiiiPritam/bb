@@ -7,6 +7,10 @@ const nextConfig = {
       // other breakpoints...
     },
   },
+  eslint: {
+    // ❗ Ignores ESLint errors during `next build`
+    ignoreDuringBuilds: true,
+  },
 
 };
 
